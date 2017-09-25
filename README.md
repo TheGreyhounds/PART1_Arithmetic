@@ -36,7 +36,7 @@ value, and later change variable 'B' to a different value, variable 'A' still st
 because variable 'B' was changed. You were also likely first introduced to the idea of modular arithmetic in this code snippet, 
 and understanding its use is another key takeaway from this repository. If modular arithmetic still confuses you, feel free to 
 play around with different modulo expressions and try to get a feel for it. A general formula that may help you is that:
-'''
+```
 // The "| |" marks signify absolute value
 if |a| > |b|:
 	a % b = a - (b * n) // where n is the largest integer that also makes |a| > |b * n| true
@@ -44,4 +44,4 @@ if |a| < |b|:
 	a % b = a
 if |a| == |b|:
 	a % b = 0
-'''
+```
