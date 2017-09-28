@@ -3,7 +3,7 @@ public class Arithmetic {
         // addition is with the '+' operator
         
         System.out.println("Two plus two is equal to " + (2 + 2));
-        System.out.println("362 plus 781 is equal to " + (363 + 781));
+        System.out.println("362 plus 781 is equal to " + (362 + 781));
         System.out.println("999,999,999 + 1 is equal to " + (999_999_999 + 1)); // <-- Notice again it's perfectly
                                                                        // allowed to have underscores in our integer
         System.out.println("");                                        // literals to make them more readable.
